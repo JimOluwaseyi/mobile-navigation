@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+
+
+.black-div{
+    width: 39vw;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: 0.45s all;
+
+
+}
+
+.red-div{
+    width: 37vw;
+    height: 100vh;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: 0.50s all;
+
+}
+
+.white-div{
+    width: 35vw;
+    height: 100vh;
+    background: #fffffffa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: 0.55s all;
+
+}
+.log-cont{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+h1{
+    font-size: 22px;
+}
+.log-cont > h2{
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+.log{
+    display: flex;
+    justify-content: space-between
+}
+.fa-xmark{
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.netflix{
+    padding-left: 40px;
+padding-top: 25px;
+/* border: 2px solid black; */
+}
+.netflix > h3{
+    font-size: 15px;
+    padding-top: 10px;
+}
